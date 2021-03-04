@@ -26,7 +26,19 @@ ul{
   margin-left: 44rem;
   word-spacing: 1rem;
 }
+#logo{
+   margin-left: 58rem;
+   margin-top: -25rem;
+   margin-top: 5px;
+   border-radius: 8px;
+padding: 10px 30px 10px 30px;
+border: 2px solid rgb(15, 15, 73)  ;
 
+}
+marquee{
+   height: 100%;
+   margin-top: -5rem;
+}
 /*---------------------------------End Navbar---------------------------------------*/
 .imageT{
    margin-top: -5rem;
@@ -50,12 +62,7 @@ ul{
    font-family: 'Akaya Telivigala', cursive;
    font-size: 22px;
 }
-#logo{
-   margin-left: 59rem;
-   margin-top: -25rem;
-   margin-top: 5px;
 
-}
 
 .image1{
   width: 28rem;
@@ -226,6 +233,19 @@ height: 500px;
  .card .info h1 {
    margin: 0px;
  }
+
+ #button1{
+   border-radius: 8px;
+   padding: 10px 30px 10px 30px;
+   border: 2px solid rgb(15, 15, 73)  ;
+  margin-top: 3rem;
+  margin-left: 35em;
+  margin-bottom: 5rem;
+ }
+ #button1:hover{
+    background-color:rgb(15, 15, 73) ;
+    color: white;
+ }
 /*------------------------------------------------------Footer-----------------------------------*/
 #imgbackgfooter{
    width: 100%;
@@ -235,6 +255,7 @@ height: 500px;
    z-index: -1;
    margin-bottom: 0%;
    margin-top: 15rem;
+  
 }
 #endfooter{
    display: flex;
@@ -306,6 +327,10 @@ p{
   display: flex;
   justify-content: space-around;
  }
+ input::placeholder {
+   color: rgb(8, 8, 82);
+   opacity: 1;
+   }
 
  .input2{
    display: flex;
@@ -320,7 +345,7 @@ p{
    border: 2px solid rgb(167, 160, 160);
    border-radius: 8px;
    width: 60rem;
-   background-color: rgba(151, 151, 153, 0.658);
+   background-color: rgba(21, 21, 22, 0.521);
  margin-left: 5rem;
    padding: 5rem;
    margin-top: 17rem;
@@ -352,6 +377,7 @@ p{
    
  }
 
+ 
  /*---------------*/
  .card-:hover {
    box-shadow: 0 8px 16px 0 rgba(84, 91, 158, 0.1);
@@ -392,11 +418,26 @@ p{
 
 
  /*-------------------------*********************** page contact *********************--------------------*/
+ #logo1{
+   margin-left: 55rem;
+   margin-top: -25rem;
+   margin-top: 5px;
+   border-radius: 8px;
+padding: 10px 30px 10px 30px;
+border: 2px solid rgb(15, 15, 73)  ;
+
+}
+#logo1:hover{
+   background-color: rgb(15, 15, 73) ;
+   color: white;
+}
+
  .meillserv-contact{
    display: flex;
    justify-content: space-around;
    text-align: center; 
    margin-top: 4rem;
+   
    
  }
  
@@ -414,37 +455,24 @@ p{
  
  }
 
- #titre-page-contact:hover{
-   display: none; 
- }
- #titre-cont1{
-   display: none; 
- }
- #titre-cont1:hover{
-   border-radius: 6px;
-   margin-top: 8rem;
-   margin-left: 5rem;
-   color: white;
-   font-family: 'Akaya Telivigala', cursive; 
-   position: relative;
-   background-color: rgba(66, 62, 62, 0.644);
-   width: 40rem;
-   padding: 1rem;
-   text-align: center;
- }
+
 /*---------------------------------*/
  .formparg{
     display: flex;
     justify-content: space-around;
     margin-top: -10rem;
+    background-color: rgba(236, 239, 243, 0.527);
+    padding: 3rem;
+    margin-bottom: 2rem;
  }
  #formcontact{
-   border: 2px solid rgb(167, 160, 160);
+   border: 2px solid rgb(15, 15, 73)  ;
    border-radius: 8px;
    width: 21rem;
    height: 27rem;
    padding: 4rem;
    padding-left: 6rem;
+  
  }
 
  #pardcontform{
@@ -455,12 +483,30 @@ p{
    margin-top: -8px;
    padding: 3rem;
    line-height: 2rem;
+   background-color:  rgb(7, 7, 36) ;
+   color: white;
+   text-align: center;
  }
  #inputcontact{
     margin-top: 1rem;
     margin-bottom: 1rem;
+    border: 2px solid rgb(15, 15, 73) ;
+    border-radius: 8px;
+    padding: 5px 5px 10px 10px;
+    width: 16rem;
+ }
+ label{
+   
  }
  #submit2{
     margin-top: 2rem;
     margin-left: 15rem;
+    border: 2px solid rgb(15, 15, 73) ;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
  }
+/*-------------------------map----------------------------*/
+.mapouter{
+   margin-left: 6rem;
+ 
+}
