@@ -5,166 +5,140 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-------------------------------font------------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet"> 
 
-    <style>.card-wrapper {
-        display: inline-block;
-        perspective: 1000px;
-      }
-      .card-wrapper .card {
-        position: relative;
-        cursor: pointer;
-        transition-duration: 0.6s;
-        transition-timing-function: ease-in-out;
-        transform-style: preserve-3d;
-      }
-      .card-wrapper .card .front,
-      .card-wrapper .card .back {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        backface-visibility: hidden;
-        transform: rotateX(0deg);
-      }
-      .card-wrapper .card .front {
-        z-index: 2;
-      }
-      .card-wrapper .card .back,
-      .card-wrapper.flip-right .card .back {
-        transform: rotateY(180deg);
-      }
-      .card-wrapper:hover .card,
-      .card-wrapper.flip-right:hover .card {
-        transform: rotateY(180deg);
-      }
-      .card-wrapper.flip-left .card .back {
-        transform: rotateY(-180deg);
-      }
-      .card-wrapper.flip-left:hover .card {
-        transform: rotateY(-180deg);
-      }
-      .card-wrapper.flip-up .card .back {
-        transform: rotateX(180deg);
-      }
-      .card-wrapper.flip-up:hover .card {
-        transform: rotateX(180deg);
-      }
-      .card-wrapper.flip-down .card .back {
-        transform: rotateX(-180deg);
-      }
-      .card-wrapper.flip-down:hover .card {
-        transform: rotateX(-180deg);
-      }
-      .card-wrapper.flip-diagonal-right .card .back {
-        transform: rotate3d(1, 1, 0, 180deg);
-      }
-      .card-wrapper.flip-diagonal-right:hover .card {
-        transform: rotate3d(1, 1, 0, 180deg);
-      }
-      .card-wrapper.flip-diagonal-left .card .back {
-        transform: rotate3d(1, 1, 0, -180deg);
-      }
-      .card-wrapper.flip-diagonal-left:hover .card {
-        transform: rotate3d(1, 1, 0, -180deg);
-      }
-      .card-wrapper.flip-inverted-diagonal-right .card .back {
-        transform: rotate3d(-1, 1, 0, 180deg);
-      }
-      .card-wrapper.flip-inverted-diagonal-right:hover .card {
-        transform: rotate3d(-1, 1, 0, 180deg);
-      }
-      .card-wrapper.flip-inverted-diagonal-left .card .back {
-        transform: rotate3d(1, -1, 0, 180deg);
-      }
-      .card-wrapper.flip-inverted-diagonal-left:hover .card {
-        transform: rotate3d(1, -1, 0, 180deg);
-      }
-      /* DEMO */
-      body {
-        background: #f1eef0;
-      }
-      .card-wrapper,
-      .card {
-        width: 350px;
-        height: 350px;
-        margin: 10px;
-      margin-left: 2rem;
-      }
-      .card .front,
-      .card .back {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid #08377e;
-        border-radius: 4px;
-      }
-      .card .front {
-        color: #FC545E;
-        background: #FFFFFF;
-        font-weight: 700;
-        font-size: 1rem;
-      }
-      .card .back {
-        font-size: 1.5rem;
-        color: #FFFFFF;
-        background: #FC545E;
-      }
-      #imgvoire{
-          height: 12rem;
-          width: 12rem;
-      }
-      </style>
+  <link rel="stylesheet" href="style2.css">
 </head>
 <!------------------------------------------------>
 <body>
+  <!----*****************************Agence immoblière****************************-->
+<!---*****************************NAVBAR******************************************--> 
+<div class="navbar">
+  <ul>
+      <li><a href="index.html"> <img src="images/home.png" alt=""> Acceuil</a></li>
+      <li><a href="Acheter.html"> <img src="images/cart.png" alt=""> Acheter</a></li>
+      <li><a href="contact.html"><img src="images/call.png" alt=""> Contact</a> </li>
+  </ul>
+
+
+
+</div>
+
+<!---*****************************END NAVBAR******************************************-->
+<!----------------------------------------images----------------------------------------> 
+
+<marquee behavior="" direction="up" scrollamount="20" ><div class="imageT" >
+  <img class="image1" src="data:image/jpeg;base64,%2F9j%2F4AAQSkZJRgABAQEAYABgAAD%2F2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P%2F2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P%2FwAARCAAZABADASIAAhEBAxEB%2F8QAGQAAAgMBAAAAAAAAAAAAAAAABAYBAgMF%2F8QAKRAAAgECAwUJAAAAAAAAAAAAAQIDAAQRITEFBhJRsRMzNUFxcoOh8P%2FEABUBAQEAAAAAAAAAAAAAAAAAAAEC%2F8QAGBEBAQADAAAAAAAAAAAAAAAAAAEREiH%2F2gAMAwEAAhEDEQA%2FAGFEW%2BkiBGBAbI6iqS2qRsQ4wNLMO3JTciWKNxwYhjhr911Xnub%2BKObsuMOpIUDEjPX0NTsOwNKtrbWiEKUCpwB2156Z40Ps93uJooElxEhDyFMiAOf7zrDePvG9y9DUbseJ%2FCetVIcv%2F9k%3D" data-srcset="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atx-impact-hub.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1920&amp;ixlib=php-3.3.0&amp;q=100&amp;w=1200 1200w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atx-impact-hub.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=3840&amp;ixlib=php-3.3.0&amp;q=75&amp;w=2400 2400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atx-impact-hub.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1024&amp;ixlib=php-3.3.0&amp;q=100&amp;w=640 640w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atx-impact-hub.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=2048&amp;ixlib=php-3.3.0&amp;q=75&amp;w=1280 1280w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atx-impact-hub.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=533&amp;ixlib=php-3.3.0&amp;q=82&amp;usm=50&amp;w=400 400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atx-impact-hub.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1066&amp;ixlib=php-3.3.0&amp;q=61&amp;w=800 800w" sizes="25vw" alt="" srcset="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atx-impact-hub.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1920&amp;ixlib=php-3.3.0&amp;q=100&amp;w=1200 1200w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atx-impact-hub.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=3840&amp;ixlib=php-3.3.0&amp;q=75&amp;w=2400 2400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atx-impact-hub.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1024&amp;ixlib=php-3.3.0&amp;q=100&amp;w=640 640w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atx-impact-hub.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=2048&amp;ixlib=php-3.3.0&amp;q=75&amp;w=1280 1280w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atx-impact-hub.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=533&amp;ixlib=php-3.3.0&amp;q=82&amp;usm=50&amp;w=400 400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atx-impact-hub.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1066&amp;ixlib=php-3.3.0&amp;q=61&amp;w=800 800w">
+  <img class="image2" src="data:image/jpeg;base64,%2F9j%2F4AAQSkZJRgABAQEAYABgAAD%2F2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P%2F2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P%2FwAARCAAZABADASIAAhEBAxEB%2F8QAGAABAAMBAAAAAAAAAAAAAAAABAACAwX%2FxAAkEAACAQMEAQUBAAAAAAAAAAABAgMABBEFEhMxISIyNFGB8f%2FEABUBAQEAAAAAAAAAAAAAAAAAAAME%2F8QAGhEBAQACAwAAAAAAAAAAAAAAEQABAhIhQf%2FaAAwDAQACEQMRAD8A1u55H1N94YKh2jDHziqESyzrEjuN%2BAMMfBpuoWytft6wzMQdgHt%2FtSKHikVkIBVgT46H3U%2BVKrU4tzL%2B%2Fcai7xyleQYbKZ66pWmz8kxMr71A2hQuBihXPyf2m2XYpTthfL%2F%2F2Q%3D%3D" data-srcset="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-la-cross-campus.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1920&amp;ixlib=php-3.3.0&amp;q=100&amp;w=1200 1200w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-la-cross-campus.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=3840&amp;ixlib=php-3.3.0&amp;q=75&amp;w=2400 2400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-la-cross-campus.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1024&amp;ixlib=php-3.3.0&amp;q=100&amp;w=640 640w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-la-cross-campus.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=2048&amp;ixlib=php-3.3.0&amp;q=75&amp;w=1280 1280w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-la-cross-campus.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=533&amp;ixlib=php-3.3.0&amp;q=82&amp;usm=50&amp;w=400 400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-la-cross-campus.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1066&amp;ixlib=php-3.3.0&amp;q=61&amp;w=800 800w" sizes="25vw" alt="" srcset="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-la-cross-campus.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1920&amp;ixlib=php-3.3.0&amp;q=100&amp;w=1200 1200w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-la-cross-campus.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=3840&amp;ixlib=php-3.3.0&amp;q=75&amp;w=2400 2400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-la-cross-campus.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1024&amp;ixlib=php-3.3.0&amp;q=100&amp;w=640 640w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-la-cross-campus.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=2048&amp;ixlib=php-3.3.0&amp;q=75&amp;w=1280 1280w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-la-cross-campus.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=533&amp;ixlib=php-3.3.0&amp;q=82&amp;usm=50&amp;w=400 400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-la-cross-campus.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1066&amp;ixlib=php-3.3.0&amp;q=61&amp;w=800 800w">
+  <img class="image3" src="data:image/jpeg;base64,%2F9j%2F4AAQSkZJRgABAQEAYABgAAD%2F2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P%2F2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P%2FwAARCAAZABADASIAAhEBAxEB%2F8QAGAAAAgMAAAAAAAAAAAAAAAAAAQQAAwX%2FxAAkEAACAgIABQUBAAAAAAAAAAABAgMEABEFEhMhcSMyMzVBgf%2FEABUBAQEAAAAAAAAAAAAAAAAAAAIB%2F8QAGBEBAQEBAQAAAAAAAAAAAAAAAQAREjH%2F2gAMAwEAAhEDEQA%2FAJDFV4lxDmcLFuMn%2BgkYRNPw8gownr70Ne4eMZkkry2hyxxdLk7sw7735wrDTNhFjeMbOgN7w9D7XGXuULEl5vRPSZiwde%2BXx0IIJo5mdhIjbUH9OadH4ExK%2FwDYL4wphIVb%2F9k%3D" data-srcset="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dal-worksuites.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1920&amp;ixlib=php-3.3.0&amp;q=100&amp;w=1200 1200w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dal-worksuites.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=3840&amp;ixlib=php-3.3.0&amp;q=75&amp;w=2400 2400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dal-worksuites.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1024&amp;ixlib=php-3.3.0&amp;q=100&amp;w=640 640w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dal-worksuites.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=2048&amp;ixlib=php-3.3.0&amp;q=75&amp;w=1280 1280w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dal-worksuites.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=533&amp;ixlib=php-3.3.0&amp;q=82&amp;usm=50&amp;w=400 400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dal-worksuites.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1066&amp;ixlib=php-3.3.0&amp;q=61&amp;w=800 800w" sizes="25vw" alt="" srcset="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dal-worksuites.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1920&amp;ixlib=php-3.3.0&amp;q=100&amp;w=1200 1200w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dal-worksuites.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=3840&amp;ixlib=php-3.3.0&amp;q=75&amp;w=2400 2400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dal-worksuites.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1024&amp;ixlib=php-3.3.0&amp;q=100&amp;w=640 640w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dal-worksuites.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=2048&amp;ixlib=php-3.3.0&amp;q=75&amp;w=1280 1280w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dal-worksuites.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=533&amp;ixlib=php-3.3.0&amp;q=82&amp;usm=50&amp;w=400 400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dal-worksuites.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1066&amp;ixlib=php-3.3.0&amp;q=61&amp;w=800 800w">
+  <img class="image4" src="data:image/jpeg;base64,%2F9j%2F4AAQSkZJRgABAQEAYABgAAD%2F2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P%2F2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P%2FwAARCAAZABADASIAAhEBAxEB%2F8QAGAAAAgMAAAAAAAAAAAAAAAAAAwUBAgT%2FxAAnEAACAQMBBgcAAAAAAAAAAAABAgMABBESBRMhIjFxIzIzQVGBsf%2FEABUBAQEAAAAAAAAAAAAAAAAAAAID%2F8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEhMf%2FaAAwDAQACEQMRAD8Af21rHKWEhYgJnGo9atJbw6lCa8EHPMaA7MAdLEZ64oW8eMjm60E4JiF76MbSkMrXBfV4SAZHY8fmtM%2B0IJbEm43yODzGJRgHPtxpS%2Fqt2qF8n2f2jCl0%2F9k%3D" data-srcset="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-chi-exchange-312.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1920&amp;ixlib=php-3.3.0&amp;q=100&amp;w=1200 1200w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-chi-exchange-312.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=3840&amp;ixlib=php-3.3.0&amp;q=75&amp;w=2400 2400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-chi-exchange-312.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1024&amp;ixlib=php-3.3.0&amp;q=100&amp;w=640 640w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-chi-exchange-312.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=2048&amp;ixlib=php-3.3.0&amp;q=75&amp;w=1280 1280w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-chi-exchange-312.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=533&amp;ixlib=php-3.3.0&amp;q=82&amp;usm=50&amp;w=400 400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-chi-exchange-312.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1066&amp;ixlib=php-3.3.0&amp;q=61&amp;w=800 800w" sizes="25vw" alt="" srcset="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-chi-exchange-312.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1920&amp;ixlib=php-3.3.0&amp;q=100&amp;w=1200 1200w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-chi-exchange-312.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=3840&amp;ixlib=php-3.3.0&amp;q=75&amp;w=2400 2400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-chi-exchange-312.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1024&amp;ixlib=php-3.3.0&amp;q=100&amp;w=640 640w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-chi-exchange-312.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=2048&amp;ixlib=php-3.3.0&amp;q=75&amp;w=1280 1280w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-chi-exchange-312.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=533&amp;ixlib=php-3.3.0&amp;q=82&amp;usm=50&amp;w=400 400w, https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-chi-exchange-312.jpg?crop=focalpoint&amp;domain=deskpass-marketing.imgix.net&amp;fit=crop&amp;fm=pjpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1066&amp;ixlib=php-3.3.0&amp;q=61&amp;w=800 800w">
+  </div></marquee>
+<!--------------------------------------End images----------------------------------------> 
+<h1 id="titre0">Découvrir <br> nos <br> offres </h1>
+
+
+<hr style="margin-top: 16rem;">
+<p id="sous-titre">Des milliers d'espaces de travail. Flexibilité illimitée. <br> Aucun engagement. Payez au fur et à mesure.</p>
+<img id="logo" src="images/mortgage.png" alt="">
+<!------------------------------------------------>
+  <section class="cardcssannimt">
     <div class="card-wrapper flip-right">
         <div class="card">
           <div class="front"><img id="imgvoire" src="images/kitchen-2165756_1920.jpg" alt=""></div>
-          <div class="back">A vente</div>
+          <div class="back">A vente une belle villa de haut standing située dans un endroit calme pas loin de la mer dans la zone du théâtre à Hammamet </div>
         </div>
       </div>
       <div class="card-wrapper flip-left">
         <div class="card">
           <div class="front"><img id="imgvoire" src="images/interior-1961070_1920.jpg" alt=""></div>
-          <div class="back">A vente</div>
+          <div class="back">A vente une belle villa de haut standing située dans un endroit calme pas loin de la mer dans la zone du théâtre à Hammamet </div>
         </div>
       </div>
       <div class="card-wrapper flip-up">
         <div class="card">
-          <div class="front">flip up</div>
-          <div class="back">A vente</div>
+          <div class="front"><img id="imgvoire"  src="images/bedroom-389254_1280.jpg" alt=""></div>
+          <div class="back">A vente une belle villa de haut standing située dans un endroit calme pas loin de la mer dans la zone du théâtre à Hammamet </div>
         </div>
       </div>
       <div class="card-wrapper flip-down">
         <div class="card">
-          <div class="front">flip down</div>
-          <div class="back">A vente</div>
+          <div class="front"> <img id="imgvoire" src="images/home0.jpg" alt=""></div>
+          <div class="back">A vente une belle villa de haut standing située dans un endroit calme pas loin de la mer dans la zone du théâtre à Hammamet </div>
         </div>
       </div>
       <div class="card-wrapper flip-diagonal-right">
         <div class="card">
-          <div class="front">flip diagonal right</div>
-          <div class="back">BACK</div>
+          <div class="front"> <img id="imgvoire" src="images/home1.jpg" alt=""></div>
+          <div class="back">A vente une belle villa de haut standing située dans un endroit calme pas loin de la mer dans la zone du théâtre à Hammamet </div>
         </div>
       </div>
       <div class="card-wrapper flip-diagonal-left">
         <div class="card">
-          <div class="front">flip diagonal left</div>
-          <div class="back">BACK</div>
+          <div class="front"> <img id="imgvoire" src="images/home2.jpg" alt=""></div>
+          <div class="back">A vente une belle villa de haut standing située dans un endroit calme pas loin de la mer dans la zone du théâtre à Hammamet </div>
         </div>
       </div>
       <div class="card-wrapper flip-inverted-diagonal-right">
         <div class="card">
-          <div class="front">flip inverted diagonal right</div>
-          <div class="back">BACK</div>
+          <div class="front"> <img id="imgvoire" src="images/home-2486092_1920(1).jpg" alt=""></div>
+          <div class="back">A vente une belle villa de haut standing située dans un endroit calme pas loin de la mer dans la zone du théâtre à Hammamet </div>
         </div>
       </div>
       <div class="card-wrapper flip-inverted-diagonal-left">
         <div class="card">
-          <div class="front">flip inverted diagonal left</div>
-          <div class="back">BACK</div>
+          <div class="front"> <img id="imgvoire" src="images/interior-1961070_1920.jpg" alt=""></div>
+          <div class="back">A vente une belle villa de haut standing située dans un endroit calme pas loin de la mer dans la zone du théâtre à Hammamet </div>
         </div>
       </div>   
+      <div class="card-wrapper flip-right">
+        <div class="card">
+          <div class="front"><img id="imgvoire" src="images/kitchen-2165756_1920.jpg" alt=""></div>
+          <div class="back">A vente une belle villa de haut standing située dans un endroit calme pas loin de la mer dans la zone du théâtre à Hammamet... </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------------Footer------------------------------------>
+<img id="imgbackgfooter" src="images/clouds-2517653_1920.jpg" alt="">
+<footer>
+    <div id="endfooter">
+<!--*******************************-->
+<div>
+    <img id="logo-footer" src="images/mortgage.png" alt="">
+    <p id="parfooter">Agence basée au cœur de la Banlieue <br> Sud et spécialisée dans la Vente, <br> la Location, la Gestion, la Gérance et <br> l’Estimation des différents biens immobilière</p>
+</div>
+<!--*******************************-->
+<div>
+    
+<ul id="listfooter">
+    <h4>Retour</h4>
+    
+   
+      <li><a href="index.html"> Acceuil</a> </li>
+        <li><a href="Acheter.html">  Acheter</a></li>
+        <li><a href="contact.html"> Contact</a> </li> 
+</ul>
+</div>
+<!--*******************************-->
+<div id="iconcontact">
+    <p><img id="icon" src="images/mail.png" alt="">inesdhaouadi96@gmail.com</p>
+    <p><img id="icon" src="images/placeholder.png" alt="">Hammam Chatt, Ben Arous 1164</p>
+    <p><img id="icon" src="images/phone-call.png" alt="">+(216) 25 501 434</p>
+
+
+
+</div>
+
+</div>
+</footer>
+<!-- Copyright
+<hr color="white">
+<div  id="copyright">© 2020 Copyright: DHAOUADI Ines
+</div> -->
+<!-- Copyright -->
+
+
 </body>
 </html>

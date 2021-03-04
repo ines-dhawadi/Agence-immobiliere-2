@@ -1,0 +1,279 @@
+body{
+    overflow-x: hidden;
+ }
+ /*---------------------------------*******-------------------------------------*/
+ /*---------------------------------Navbar---------------------------------------*/
+ ul>li{
+   
+ list-style: none;
+ padding: 1rem;
+ color: rgb(7, 7, 36) ;
+ font-size: 20px;
+ 
+ 
+ }
+ ul>li>a{
+    color: rgb(7, 7, 36) ;
+    text-decoration: none;
+ }
+ a:hover{
+    text-decoration: underline rgb(7, 7, 36);
+   
+ }
+ ul{
+    display: flex;
+   margin-left: 44rem;
+   word-spacing: 1rem;
+ }
+ #logo{
+    margin-left: 37rem;
+    margin-top:3rem;
+  
+    border-radius: 8px;
+ padding: 10px 30px 10px 30px;
+ border: 2px solid rgb(15, 15, 73);
+ position: absolute;
+ 
+ }
+ marquee{
+    height: 60%;
+    margin-top: -5rem;
+ }
+ /*---------------------------------End Navbar---------------------------------------*/
+.imageT{
+    margin-top: -5rem;
+    display: inline-grid;
+    grid-template-columns: 20rem 20rem;
+    grid-gap:1rem 1rem
+ }
+ /*.imageT:hover{
+    transform: rotate(20deg);
+ 
+ }*/
+ #titre0{
+    font-family: 'Akaya Telivigala', cursive;
+    margin-left: 52rem;
+    margin-top: -33rem;
+    padding: 1rem;
+    padding-top: 3rem;
+    padding-bottom: -3rem;
+  font-size: 3rem;
+  color: rgb(242, 242, 248);
+  text-align: center;
+  border: 2px solid rgba(195, 195, 202, 0.486);
+  border-radius: 50%;
+  height: 15rem;
+  width: 18rem;
+  background-color:rgb(8, 8, 82) ;
+ }
+
+ #titre0:hover{
+     color: rgb(8, 8, 82);
+     background-color: white;
+ }
+ #sous-titre{
+    margin-left: 26rem;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 25px;
+    margin-bottom: -2rem;
+    margin-top: 5rem;
+ }
+ 
+ 
+ .image1{
+   width: 28rem;
+   height: 25rem; 
+ }
+ .image2{
+ 
+   height: 32rem;
+ 
+ }
+ .image3{
+    margin-top: -7rem;
+ }
+ .image4{
+    height: 19rem;
+    width: 24rem;
+    margin-top: 10px;
+ }
+ /*----------------------------------------------------------------------*/
+ .cardcssannimt{
+     margin-top: 10rem;
+ }
+.card-wrapper {
+    display: inline-block;
+    perspective: 1000px;
+  }
+  .card-wrapper .card {
+    position: relative;
+    cursor: pointer;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+    transform-style: preserve-3d;
+
+  }
+  .card-wrapper .card .front,
+  .card-wrapper .card .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+  }
+  .card-wrapper .card .front {
+    z-index: 2;
+  }
+  .card-wrapper .card .back,
+  .card-wrapper.flip-right .card .back {
+    transform: rotateY(180deg);
+  }
+  .card-wrapper:hover .card,
+  .card-wrapper.flip-right:hover .card {
+    transform: rotateY(180deg);
+  }
+  .card-wrapper.flip-left .card .back {
+    transform: rotateY(-180deg);
+  }
+  .card-wrapper.flip-left:hover .card {
+    transform: rotateY(-180deg);
+  }
+  .card-wrapper.flip-up .card .back {
+    transform: rotateX(180deg);
+  }
+  .card-wrapper.flip-up:hover .card {
+    transform: rotateX(180deg);
+  }
+  .card-wrapper.flip-down .card .back {
+    transform: rotateX(-180deg);
+  }
+  .card-wrapper.flip-down:hover .card {
+    transform: rotateX(-180deg);
+  }
+  .card-wrapper.flip-diagonal-right .card .back {
+    transform: rotate3d(1, 1, 0, 180deg);
+  }
+  .card-wrapper.flip-diagonal-right:hover .card {
+    transform: rotate3d(1, 1, 0, 180deg);
+  }
+  .card-wrapper.flip-diagonal-left .card .back {
+    transform: rotate3d(1, 1, 0, -180deg);
+  }
+  .card-wrapper.flip-diagonal-left:hover .card {
+    transform: rotate3d(1, 1, 0, -180deg);
+  }
+  .card-wrapper.flip-inverted-diagonal-right .card .back {
+    transform: rotate3d(-1, 1, 0, 180deg);
+  }
+  .card-wrapper.flip-inverted-diagonal-right:hover .card {
+    transform: rotate3d(-1, 1, 0, 180deg);
+  }
+  .card-wrapper.flip-inverted-diagonal-left .card .back {
+    transform: rotate3d(1, -1, 0, 180deg);
+  }
+  .card-wrapper.flip-inverted-diagonal-left:hover .card {
+    transform: rotate3d(1, -1, 0, 180deg);
+  }
+  /* DEMO */
+  body {
+    background: #f1eef0;
+  }
+  .card-wrapper,
+  .card {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+  margin-left: 2rem;
+  }
+  .card .front,
+  .card .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #08377e3a;
+    border-radius: 4px;
+  }
+  .card .front {
+  
+    background: #ffffff33;
+    font-weight: 700;
+    font-size: 1rem;
+   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.534);
+ 
+  }
+  .card .back {
+    font-size: 13px;
+    color: #FFFFFF;
+    background: #04205c;
+    text-align: center;
+  }
+  #imgvoire{
+      height: 20rem;
+      width: 20rem;
+      box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.534);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+  }
+  /*------------------------------------------------------Footer-----------------------------------*/
+#imgbackgfooter{
+    width: 100%;
+    height: 35rem;
+    border-top-right-radius: 70%;
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 0%;
+    margin-top: 15rem;
+   
+ }
+ #endfooter{
+    display: flex;
+    background-color: rgba(151, 151, 153, 0.658);
+ margin: 5rem;
+ position: relative;
+ margin-top: 30rem;
+ border: 2px solid rgb(167, 160, 160);
+   border-radius: 8px;
+ 
+ }
+ 
+ #listfooter{
+    display: inline-grid;
+  margin-left: 11rem;
+    
+ }
+ #listfooter li{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    list-style: none;
+    text-decoration: none;
+ }
+ 
+ #logo-footer{
+    margin-top: 2rem;
+    margin-left: 9rem;
+ }
+ #parfooter{
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-left: 3rem;
+    font-size: 15px;  
+    margin-top: 23px;
+    text-align: center;
+ }
+ #iconcontact{
+ margin-left: 10rem;
+ margin-top: 4rem;
+ }
+ #icon{
+    margin-right: 1rem;
+ }
+ p{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px;  
+ }
+ 
+ 
+ 
+ 
+ 
